@@ -3,41 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type=text/css href="style.css"/>
     <title>Hola Otoño</title>
 </head>
 <body>
     <header>
-        <h1>Hola, Otoño! </h1>      
+        <h1>Hola, Otoño! </h1>    
+        <nav>
+            <a href="oto-arg.html">Otoño en Argentina</a>
+            <a href="oto-mun.html">Otoño en el mundo</a>
+        </nav>  
     </header>    
-    <nav>
-        <a href="/oto-arg.html">Otoño en Argentina</a>
-        <a href="/oto-mun.html">Otoño en el mundo</a>
-    </nav>
-    <section>      
-        <article>
-            <h2>Caracteristicas del Otoño</h2>
-            <p>El otoño es la estación que inicia el 21 de setiembre y finaliza el 20 de diciembre en el hemisferio norte, y comienza el 21 de marzo y termina el 20 de junio en el hemisferio sur. Durante esta estación, los días se hacen más cortos, los árboles pierden su follaje y los animales se preparan para la llegada del invierno.</p>      
-            <p>Curiosidad: El otoño puede traer lluvias de olor dulce. ¿Por qué la lluvia fresca huele tan bien? Una razón es el "petricor", un olor que surge del agua que golpea las bacterias que habitan en el suelo y los aceites vegetales después de un período seco. </p>
-            <img src="/assets/lluvia-otoñal.jpg" alt="paisaje otoñal luego de la lluvia">
-        
-        
-        </article>      
-    </section>
-    <aside>
-        <h3>Arte otoñal</h3>
-        <p>Manifestaciones artisticas con tematica otoñal.</p>
+    
+<div class="wave">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#32a852" fill-opacity="0.2" d="M0,256L48,250.7C96,245,192,235,288,197.3C384,160,480,96,576,106.7C672,117,768,203,864,218.7C960,235,1056,181,1152,138.7C1248,96,1344,64,1392,48L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</div>
+
+<section class="flex">
+    <h3>Arte otoñal</h3> 
+ <p>Manifestaciones artisticas con tematica otoñal.</p>
+</section>
+
+<main class="grid">
+    
+    <article>
         <img src="/assets/Monet-Efecto-de-otoño-en-Argenteuil-1873.jpg" alt="pintura de Monet">
-       <p>CLAUDE MONET, Efecto de otoño en Argenteuil, 1873</p> 
-       <img src="/assets/Mary-Fairchild-Low-Jardin-Giverny-otono.jpg" alt="pintura de Mary Fairchild">
-       <p>MARY FAIRCHILD LOW, Jardín en Giverny, c.1902</p>
+      <div class="text">
+      <p>CLAUDE MONET, Efecto de otoño en Argenteuil, 1873</p>  
+      </div>
+    </article>
+
+
+    <article>
+        <img src="/assets/Mary-Fairchild-Low-Jardin-Giverny-otono.jpg" alt="pintura de Mary Fairchild">
+      <div class="text">
+       
+        <p>MARY FAIRCHILD LOW, Jardín en Giverny, c.1902</p>
+
+      </div>
+    </article>
+
+    <article>
         <img src="/assets/Klimt-Bosque-de-hayas-I-1903.jpg" alt="pintura de Gustav Klimt">
-       <p>GUSTAV KLIMT, Bosque de Hayas I, 1903</p>
-    </aside>
-    <footer>
-        <h4>Redes sociales</h4>
+      <div class="text">
+        <p>GUSTAV KLIMT, Bosque de Hayas I, 1903</p>
+      </div>
+    </article>
+  
+   
+  
+  </main>
+
+    <footer class="container flex">
+    <div class="row">
+    <div class="col">
         <a href="#">Instagram</a>
         <a href="#">Tiwtter</a>
-    </footer>
+    </div>
+    </div>
+
+   </footer>
 </body>
 </html>
