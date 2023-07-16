@@ -11,6 +11,7 @@
     min-height: 25vh;
     width:100%;
     position: relative;
+    z-index: -5;
 }
 
 svg{
@@ -94,3 +95,56 @@ main img {
     padding: 20px;
   }
   
+
+  /*****************RESPONSIVE*******************/
+
+  @media screen and (max-width: 1235px) {
+      :root {
+          --padding-x:20px;
+      }
+  }
+  
+  @media screen and (max-width:768px) {
+     
+     h1 {
+         font-size: 4em;
+     }
+  
+  }
+  
+  @media screen and (max-width:576px) {
+  :root {
+      --padding-x:20px;
+  }
+  navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px;
+  }
+  
+  h1 {
+      font-size: 3em;
+  }
+
+  }
+  
+  @media screen and (max-width:411px) {
+      h1 {
+          font-size: 2.5em;
+      }
+
+  }
+  
+  @media screen and (max-width:375px) {
+      p {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 2.5em;
+      }
+      :root {
+        --padding-x:50px;
+    }
+      
+  }
+
